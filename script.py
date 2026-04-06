@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 from sklearn import tree
 
 # Импортируем данные
-df = pd.read_csv("dataR2.csv")
+df = pd.read_csv("C:/Users/user/Downloads/breast+cancer+coimbra/dataR2.csv")
 X, y = df[["Age", "Glucose"]].values, df["Classification"]
 
 print(df[["Age", "Glucose", "Classification"]].head())
